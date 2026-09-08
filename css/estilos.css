@@ -1,0 +1,49 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+    font-size: 1.6rem;
+}
+
+h1 {
+    color: blueviolet;
+    font-size: 4rem; /*4 rem equivale a 40 px*/
+}
+
+h2 {color:blue ;}
+
+.bold {font-weight: bold}
+
+.mis-datos {
+    background-color: antiquewhite;
+}
+
+.mis-datos h2 {
+    color: rgb(133, 74, 6);
+}
+
+.box {
+    height: 10rem; /* alto */
+    width: 10rem; /* ancho */
+}
+
+.red {  
+    background-color: red;
+    padding: 2rem; /* paddin arriba - abajo izquierda derecha*/
+    /*  padding: arriba derecha abajo izquierda */  
+}
+
+.blue {
+    background-color: blue;
+    margin-top: 2rem;
+}
+
+.border {
+    border: solid;
+    border-style: dotted;
+    border-radius: 1rem;
+}
